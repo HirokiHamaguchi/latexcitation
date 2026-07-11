@@ -1,0 +1,38 @@
+{
+  "name": "latexcitation",
+  "displayName": "LaTeX Citation",
+  "description": "Citation Checker for LaTeX",
+  "version": "0.0.1",
+  "icon": "images/mainIcon512.png",
+  "author": {
+    "name": "Hiroki Hamaguchi",
+    "email": "hari64boli64@gmail.com"
+  },
+  "publisher": "hari64boli64",
+  "license": "MIT",
+  "keywords": [
+    "LaTeX",
+    "Citation",
+    "Checker",
+    "bib",
+    "bbl"
+  ],
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hari64boli64/latexcitation"
+  },
+  "bugs": {
+    "url": "https://github.com/hari64boli64/latexcitation/issues",
+    "email": "hari64boli64@gmail.com"
+  }
+}

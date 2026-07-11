@@ -1,0 +1,16 @@
+[project]
+name = "latexcitation"
+version = "0.0.1"
+description = "A simple citation checker for LaTeX"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cairosvg>=2.8.2",
+    "dotenv>=0.9.9",
+    "feedparser>=6.0.12",
+    "pillow>=12.2.0",
+    "pymupdf>=1.26.4",
+    "requests>=2.33.1",
+    "selenium>=4.35.0",
+    "types-requests>=2.32.4.20250913",
+]

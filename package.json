@@ -1,7 +1,7 @@
 {
   "name": "latexcitation",
   "displayName": "LaTeX Citation",
-  "description": "Citation Checker for LaTeX",
+  "description": "Experimental citation consistency checker for LaTeX projects that visualizes BibTeX field usage",
   "version": "0.0.1",
   "icon": "images/mainIcon512.png",
   "author": {
